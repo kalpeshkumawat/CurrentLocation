@@ -1,4 +1,25 @@
 
+Android-CurrentLocation
+
+
+Installation
+
+Add this library to your project
+Declare the Gradle repository in your root build.gradle
+
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+Declare the Gradle dependency in your app module's build.gradle
+
+dependencies {
+    implementation 'com.github.kalpeshkumawat:CurrentLocation:1.0'
+}
+Usage
+
+
 Implement Callback Interface: IFetchLocation
 
     void getCurrentLocation(Location location); // Current location found
