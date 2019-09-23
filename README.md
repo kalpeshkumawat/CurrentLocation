@@ -23,11 +23,11 @@ dependencies { <br />
 
 **For fine location (GPS location), add the following permission in your AndroidManifest.xml:**
 
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+[<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />]
 
 **For coarse location (network location) **
 
-add the following permission in your AndroidManifest.xml:
+(add the following permission in your AndroidManifest.xml:)
 
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
