@@ -6,17 +6,17 @@
 
 **Add this library to your project**
 
-Declare the Gradle repository in your root build.gradle
+###### Declare the Gradle repository in your root build.gradle
 
 allprojects { <br /> 
    &nbsp; &nbsp;&nbsp;repositories { <br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  maven { url "https://jitpack.io" } <br />
 }
 
-Declare the Gradle dependency in your app module's build.gradle
+###### Declare the Gradle dependency in your app module's build.gradle
 
-dependencies {
-    implementation 'com.github.kalpeshkumawat:CurrentLocation:1.0'
+dependencies { <br /> 
+    &nbsp; &nbsp;&nbsp;&nbsp;implementation 'com.github.kalpeshkumawat:CurrentLocation:1.0' <br /> 
 }
 
 Add the required permissions
