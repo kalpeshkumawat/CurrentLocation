@@ -17,6 +17,16 @@ Declare the Gradle dependency in your app module's build.gradle
 dependencies {
     implementation 'com.github.kalpeshkumawat:CurrentLocation:1.0'
 }
+
+Add the required permissions
+For fine location (GPS location), add the following permission in your AndroidManifest.xml:
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+For coarse location (network location), add the following permission in your AndroidManifest.xml:
+
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
 Usage
 
 
