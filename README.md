@@ -9,9 +9,9 @@
 Declare the Gradle repository in your root build.gradle
 
 allprojects { <br /> 
-   &nbsp; repositories { <br />
-      &nbsp;  maven { url "https://jitpack.io" } <br />
-   &nbsp;<br />
+   &nbsp; &nbsp;&nbsp;repositories { <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  maven { url "https://jitpack.io" } <br />
+   &nbsp;&nbsp;&nbsp;<br />
 }> <br />
 
 Declare the Gradle dependency in your app module's build.gradle
