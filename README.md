@@ -33,7 +33,10 @@ dependencies { <br />
 ## Usage
 
 public class MainActivity extends GetLocationActivity implements IFetchLocation {
-    @Override
+   
+   
+   
+   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
