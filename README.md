@@ -4,7 +4,7 @@
 
 ## Installation
 
-###### Add this library to your project
+** Add this library to your project **
 
 Declare the Gradle repository in your root build.gradle
 
