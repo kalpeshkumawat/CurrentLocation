@@ -33,22 +33,19 @@ dependencies { <br />
 ## Usage
 
 public class MainActivity extends GetLocationActivity implements IFetchLocation {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+	getLocation(this); // Method to fetch current Location 
 
-        getLocation(this);
+   }
 
-
-    }
-
-
-    @Override
+@Override
     public void getCurrentLocation(Location location) {
 
+   // Location Found Here
 
         if (location != null) {
 
@@ -63,10 +60,7 @@ public class MainActivity extends GetLocationActivity implements IFetchLocation 
     }
 }
 	
-	
-	
-	-------------------------------------------------------------------------------------
-	
+		
 1. Get current location :-
 
    getLocation(IFetchLocation iFetchLocationObj); 
