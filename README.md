@@ -8,8 +8,8 @@
 
 ###### Declare the Gradle repository in your root build.gradle
 
-allprojects { <br /> 
-   &nbsp; &nbsp;&nbsp;repositories { <br />
+allprojects &nbsp;{ <br /> 
+   &nbsp; &nbsp;&nbsp;repositories &nbsp;{ <br />
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  maven { url "https://jitpack.io" } <br />
 }
 
