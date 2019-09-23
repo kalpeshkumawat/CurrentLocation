@@ -3,7 +3,7 @@
 
 ## Demo
 
-<img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_1.png?raw=true" height="42" width="42" />
+<img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_1.png?raw=true" height="200" width="100" />
 
 ## Installation
 
