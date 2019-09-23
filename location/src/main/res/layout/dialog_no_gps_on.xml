@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Permission -->
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    >
+
+
+    <ImageView
+        android:layout_width="@dimen/_120mdp"
+        android:layout_height="@dimen/_100mdp"
+        android:src="@drawable/ic_map_gps"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_100mdp"
+        android:layout_marginBottom="@dimen/_20mdp"
+        android:contentDescription="@null"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS turned off"
+        android:textSize="@dimen/_16font_mdp"
+        android:layout_margin="@dimen/_20mdp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allow Application to turn on your phone GPS for your accurate current location."
+        android:textSize="@dimen/_14font_mdp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_margin="@dimen/_20mdp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_gps_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_25mdp"
+                android:layout_marginRight="@dimen/_25mdp"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:padding="@dimen/_8mdp"
+                android:text="turn on gps"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/_14font_mdp" />
+
+            <TextView
+                android:id="@+id/tv_gps_on_not_now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_25mdp"
+                android:layout_marginRight="@dimen/_25mdp"
+                android:layout_marginTop="@dimen/_15mdp"
+                android:layout_marginBottom="@dimen/_20mdp"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:padding="@dimen/_8mdp"
+                android:text="not now"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/_14font_mdp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

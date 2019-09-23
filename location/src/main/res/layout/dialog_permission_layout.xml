@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="@dimen/_120mdp"
+        android:layout_height="@dimen/_100mdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_100mdp"
+        android:layout_marginBottom="@dimen/_20mdp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_map_permission" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20mdp"
+        android:text="Location Permission Required"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_16font_mdp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20mdp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:text="Please allow system to detect your current location."
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_14font_mdp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_allow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_25mdp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:padding="@dimen/_8mdp"
+            android:text="Allow"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="@dimen/_14font_mdp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
