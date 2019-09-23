@@ -30,21 +30,9 @@ dependencies { <br />
 ><uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 
-Usage
+## Usage
 
-
-Implement Callback Interface: IFetchLocation
-
-    void getCurrentLocation(Location location); // Current location found
- 
-    void gpsNotEnable() ; // When GPS disabled by User
-
-
-	-------------------------------------------------------------------------------------
-	
-	
-	
-	public class MainActivity extends GetLocationActivity implements IFetchLocation {
+public class MainActivity extends GetLocationActivity implements IFetchLocation {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
