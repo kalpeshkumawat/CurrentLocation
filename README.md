@@ -70,6 +70,8 @@ public class MainActivity extends GetLocationActivity implements IFetchLocation 
 **1. Get current location :-**
 
    getLocation(IFetchLocation iFetchLocationObj); 
+   
+   
 
 **2. You can get a one-time location or continues(by Distance or Time or Both) location:-**
 
@@ -80,9 +82,11 @@ getLocation(boolean isContinuesLocation, long timeInterval, IFetchLocation iFetc
 getLocation(boolean isContinuesLocation, float distanceInterval, long timeInterval, IFetchLocation iFetchLocationObj);
 
 
+
 **3. Please Stop location when you try to get continues location:-**
 
   stopLocationTracking();
+
 
 
 **4. Add below code in Root Activity  when you access location in the fragment:-**
