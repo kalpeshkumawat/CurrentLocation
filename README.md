@@ -40,6 +40,9 @@ dependencies { <br />
 
 ## Usage
 
+## GetLocationActivity / GetLocationFragment 
+
+
 public class MainActivity extends GetLocationActivity implements IFetchLocation {
 
     @Override
@@ -61,6 +64,7 @@ public class MainActivity extends GetLocationActivity implements IFetchLocation 
         if (location != null) {
 
             Toast.makeText(this, "Location Found", Toast.LENGTH_SHORT).show();
+	    // Get Here Latitude and Longitude
         }
 
     }
