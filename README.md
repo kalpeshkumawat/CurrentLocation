@@ -3,7 +3,7 @@
 
 ## Demo
 
-<img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_1.png?raw=true" style="max-width:200;" | <img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_2.png?raw=true" style="max-width:200"> | <img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_3.png?raw=true" style="max-width:200">
+<img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_2.png?raw=true" width="100" height="100" | <img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_3.png?raw=true" style="max-width:200">
 
 ## Installation
 
