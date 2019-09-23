@@ -23,11 +23,11 @@ dependencies { <br />
 
 **For fine location (GPS location):**
 
-> <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+*<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 **For coarse location (network location):**
 
-> <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+><uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 
 Usage
