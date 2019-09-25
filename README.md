@@ -44,7 +44,7 @@ dependencies { <br />
 
 **GetLocationActivity / GetLocationFragment**
 
-
+```
 public class MainActivity extends GetLocationActivity implements IFetchLocation {
 
     @Override
@@ -76,7 +76,7 @@ public class MainActivity extends GetLocationActivity implements IFetchLocation 
         Toast.makeText(this, "GPS not enabled", Toast.LENGTH_SHORT).show();
     }
 }
-	
+```
 		
 **1. Get current location :-** 
 
