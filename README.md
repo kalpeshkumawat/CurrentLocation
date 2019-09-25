@@ -114,6 +114,9 @@ getLocation(boolean isContinuesLocation, float distanceInterval, long timeInterv
         }
     }
 
+## Libraries used in this project
+###### Smart Location Library
+###### Google Play Services
+
 ## Contributing
 Forks, patches and other valuable feedback are welcome
-
