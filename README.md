@@ -1,6 +1,8 @@
 
 # Android-CurrentLocation
 
+Utility Module for easy access to the device location on Android
+
 ## Demo
 
 <img src="https://github.com/kalpeshkumawat/CurrentLocation/raw/master/screen_shot_1.png?raw=true" height="450" width="280" /> |
