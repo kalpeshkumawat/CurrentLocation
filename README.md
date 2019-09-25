@@ -114,3 +114,6 @@ getLocation(boolean isContinuesLocation, float distanceInterval, long timeInterv
         }
     }
 
+## Contributing
+Forks, patches and other valuable feedback are welcome
+
