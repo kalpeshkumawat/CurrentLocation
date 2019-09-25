@@ -42,8 +42,8 @@ dependencies { <br />
 
 ## Usage
 
-**GetLocationActivity** For Activity <br />
-**GetLocationFragment** For Fragment
+**GetLocationActivity**  - for Activity <br />
+**GetLocationFragment**  - for Fragment
 
 ```
 public class MainActivity extends GetLocationActivity implements IFetchLocation {
